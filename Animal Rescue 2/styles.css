@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: aquamarine;
+}
+
+h1{
+    font-size: 2em;
+    color: blueviolet;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: deeppink;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: chocolate;
+    border: none;
+    font: 1em;
+    text-align: center;
+}
+
+button.adopt-button{
+    border-radius: 20px;
+}
+
+button.donate-button{
+    border-radius: 10px;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+.welcome{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.welcome p{
+    color: cadetblue;
+}
+
+footer{
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+    color: chartreuse;
+}
+
+footer a{
+    text-decoration: none;
+    color: aqua;
+    margin: 5px;
+}
+
+#links{
+    float: right;
+    margin-right: 20%;
+}
+
+@media only screen and (min-width: 768px){
+
+
+    
+}

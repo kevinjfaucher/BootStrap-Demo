@@ -1,0 +1,86 @@
+body {
+    background-color: #282c34;
+    color: #888;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.5em;
+    text-align: center;
+    color: #444;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #61dafb;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #21a1f1;
+}
+
+.news {
+    font-style: italic;
+}
+
+.more-info {
+    background-color: #316877;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.more-info:hover {
+    background-color: #182127;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+input[type="text"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #316877;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #21a1f1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #20232a;
+    color: #888;
+}

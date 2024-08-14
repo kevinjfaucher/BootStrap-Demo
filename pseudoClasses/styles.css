@@ -1,0 +1,14 @@
+button:hover{
+    font-size: 1.1em;
+    background-color: blue;
+}
+
+button:active{
+    font-size: 1.1em;
+    background-color: rgb(169, 48, 7);
+}
+
+a:visited{
+    color:chartreuse;
+    font-size: 2em;
+}

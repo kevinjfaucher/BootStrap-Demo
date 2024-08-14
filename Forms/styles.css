@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(102, 121, 121);
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: (-50%, -50%);
+}
+
+.login-box {
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    width: 300px;
+}
+
+h2{
+    margin: 0;
+    color: gray;
+    font-size: 24px;;
+}
+
+
+h2{
+    margin: 0;
+    color: gray;
+    font-size: 24px;;
+}
+
+input{
+    display: block;
+    width: 80%;
+}

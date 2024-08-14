@@ -1,0 +1,10 @@
+#img1{
+    float: left;
+    margin-right: 20px;
+    transform: rotatez(-5deg);
+}
+
+#img2{
+    float: right;
+    margin-right: 20px;
+}
